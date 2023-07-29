@@ -1,6 +1,6 @@
 # Football Predictions Website
 
-![Screenshot](screenshot.jpg)
+![Screenshot](screenshot.JPG)
 
 ## Table of Contents
 - [Description](#description)
