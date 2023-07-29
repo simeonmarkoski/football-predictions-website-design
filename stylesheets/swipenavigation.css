@@ -1,0 +1,117 @@
+
+.swipenavigation {
+  	overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 40px /*50px*/;
+}
+
+.swipenavigation.has-scroll .next,  .swipenavigation.has-scroll .back { display: block; }
+
+.swipenavigation.has-scroll ul {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.swipenavigation .next,  .swipenavigation .back {
+  position: absolute;
+  display: none;
+  width: 50px;
+  height: 50px/*50px*/;
+  line-height: 50px/*50px*/;
+  z-index: 2;
+  top: 0;
+  text-decoration: none;
+  color: #777;
+  text-align: center;
+  transition: background-color 0.5s ease-out;
+  background-color: #FFE500;
+}
+
+.swipenavigation .next:hover:not(.hover-disabled),  .swipenavigation .back:hover:not(.hover-disabled) {
+  transition: background-color 0s;
+  background-color: #fff;
+}
+
+.swipenavigation .next.hover-disabled.touch,  .swipenavigation .back.hover-disabled.touch { background-color: #998900; }
+
+.swipenavigation .next.is-hidden,  .swipenavigation .back.is-hidden { display: none; }
+
+.swipenavigation .next { right: 0; }
+
+.swipenavigation .back { left: 0; }
+
+.swipenavigation ul {
+  width: auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  font-size: 0;
+  letter-spacing: -1em;
+  word-spacing: -1em;
+  /*max-height: 40px;*/
+}
+
+.swipenavigation ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  letter-spacing: normal;
+  word-spacing: normal;
+  border-right: 1px solid #cfcfcf;
+}
+.swipenavigation ul li:last-child {
+  border-right: 0;
+}
+/*Zelenoto tasbar*//*Menuvanje na font*/
+.swipenavigation ul li a {
+  display: block;
+  /* height: 50px; */
+  line-height: 40px/*50px*/;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0 10px;
+  box-sizing: border-box;
+  min-width: 80px;
+  text-align: center;
+  transition: background-color 0.5s ease-out;
+  font-size: 12px;
+  font-family: Roboto-Medium;
+  /*Bold*/
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.swipenavigation ul li a:hover:not(.hover-disabled) {
+  transition: background-color 0s;
+  color: #d8d8d8;
+}
+
+.swipenavigation ul li a.hover-disabled.touch {
+  transition: background-color 0s;
+  background-color: #ccb700;
+}
+
+	@media only screen and (min-width: 1200px) and (max-width: 2000px) {
+.swipenavigation ul {
+    overflow: hidden;
+}
+}
+
+		@media only screen and (min-width: 320px) and (max-width: 767px) {
+ .swipenavigation ul li a {
+  font-size: 12px;
+}
+/*mobilen tel zeleniot slidebar golemina*/
+ .swipenavigation {
+    height: 35px/*40px*/;
+    overflow: hidden !important;
+}
+/*mobilen tel zeleniot bar tekstot golemina*/
+.swipenavigation ul li a {
+  line-height: 36px/*40px*/;
+}
+    }

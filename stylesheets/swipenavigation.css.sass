@@ -1,0 +1,86 @@
+.swipenavigation
+  $h: 50px
+  overflow: hidden
+  position: relative
+  width: 100%
+  height: $h
+
+  &.has-scroll
+    .next,
+    .back
+      display: block
+    ul
+      padding-left: 50px
+      padding-right: 50px
+
+  .next,
+  .back
+    position: absolute
+    display: none
+    width: $h
+    height: $h
+    line-height: $h
+    z-index: 2
+    top: 0
+    text-decoration: none
+    color: #777
+    text-align: center
+    transition: background-color 0.5s ease-out
+    background-color: #FFE500
+    &:hover
+      &:not(.hover-disabled)
+        transition: background-color 0s
+        background-color: #fff
+    &.hover-disabled
+      &.touch
+        background-color: darken(#FFE500, 20%)
+    &.is-hidden
+      display: none
+  .next
+    right: 0
+  .back
+    left: 0
+
+
+  ul
+    width: auto
+    list-style: none
+    margin: 0
+    padding: 0
+    white-space: nowrap
+    overflow-x: auto
+    -webkit-overflow-scrolling: touch
+    font-size: 0
+    letter-spacing: -1em
+    word-spacing: -1em
+    text-align: center
+
+    li
+      display: inline-block
+      margin: 0
+      padding: 0
+      font-size: 1rem
+      letter-spacing: normal
+      word-spacing: normal
+
+      a
+        display: block
+        height: $h
+        line-height: $h
+        text-decoration: none
+        color: #777
+        padding: 0 10px
+        box-sizing: border-box
+        min-width: 80px
+        text-align: center
+        transition: background-color 0.5s ease-out
+
+        &:hover
+          &:not(.hover-disabled)
+            transition: background-color 0s
+            background-color: #fff
+
+        &.hover-disabled
+          &.touch
+            transition: background-color 0s
+            background-color: darken(#FFE500, 10%)

@@ -1,0 +1,877 @@
+@font-face {
+	font-family: Roboto-Medium;
+	src: url(../webfonts/Roboto-Medium.ttf);
+}
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(../webfonts/Roboto-Regular.ttf);
+}
+@font-face {
+	font-family: Roboto-Light;
+	src: url(../webfonts/Roboto-Light.ttf);
+}
+@font-face {
+	font-family: Roboto-Bold;
+	src: url(../webfonts/Roboto-Bold.ttf);
+}
+html {
+	scroll-behavior: smooth;
+}
+#elem1 {float:left;}
+#main-nav-bar1 {padding-left:40px;padding-top:10px;}
+.premier ul li a {
+	display: grid;
+	font-size: 16px;
+	text-transform: capitalize;
+	font-family: Roboto-Bold;
+	text-align: center;
+	padding: 5px 20px !important;
+}
+/*Logo golemina*/
+.logoNew{
+	padding-top: 80px;
+}
+.slika1 {
+	
+}
+/*Slikite za ligite*/
+.slika {
+	height: 25px;
+}
+/*Logo slika*/
+.slikaLogo {
+	padding-top: 8px;
+	height: 65px;
+}
+/*Logo slika Mobile*/
+.slikaLogoMobile {
+	height: 42px;
+}
+/*Button for paying da se stavi vo sredina*/
+.sure-btn {
+	text-align: center;
+}
+/*Rezultatite Container za da bidat so padding levo i desno*/
+.container1 {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.container2 {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.nopadding {
+	padding: 0 !important;
+	/*margin: 0 !important;*/
+}
+.padding {
+	padding-top: 28px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.padding1 {
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 50px;
+}
+.paddingButton {
+	/*padding-top: 25px;*/
+}
+.widthButtonPay{
+	/*width: 65%;*/
+}
+.padding2 {
+	padding-top: 32px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.padding3 {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.premier ul li a img {
+	text-align: center;
+	margin: 0 auto;
+}
+.logo {
+	font-size: 35px;
+	font-family: Roboto-Bold;
+	color: green !important;
+}
+.flag-btn {
+	border: 1px solid #b0b0b0;
+	float: right;
+}
+.flag-btn:focus {
+	box-shadow: none;
+}
+.header {
+	background-color: blue;
+	min-height: 60px/*60px*/;
+}
+.accass {
+	padding: 0;
+}
+.accass ul li {
+	border-right: 1px solid #fff;
+}
+.accass ul li:last-child {
+	border-right: 0;
+}
+.accass ul li a {
+	color: #fff !important;
+	font-size: 16px;
+	font-family: Roboto-Medium;
+	padding: 9px 14px !important;
+	line-height: 41px;
+	text-transform: uppercase;
+}
+.accass ul li a:hover {
+	color: #dedede !important;
+}
+.inner-sec {
+	background-color: #081740;
+}
+/*Padding to Top from the text Free Football predictions...*/
+.making {
+	padding: 30px/*65px*/ 15px 110px;
+}
+.making1 {
+	padding: 48px 15px 110px;
+}
+/*h1 Text: Football Predictions & Free Betting Tips*/
+.making h1 {
+	font-size: 22px;
+	font-family: Roboto-Medium;
+	color: #ffffff;
+	padding-bottom: 20px/*40px*/;
+	text-align: center;
+}
+/*h3 Text: Start making money...*/
+.making h3 {
+	font-size: 15px;
+	font-family: Roboto-Medium;
+	color: #ffffff;
+	padding-bottom: 20px;
+	text-align: left;
+}
+.sure {
+	background-color: #29b559;
+	border-radius: 10px;
+	padding: 15px;
+	margin-bottom: 85px;
+}
+.sure p {
+	font-size: 16px;
+	font-family: Roboto-Medium;
+	color: #ffffff;
+	text-align: center;
+	margin: 0;
+}
+.flag-dropdown img {
+	height: 20px;
+}
+/*Nav Bar Today Tommorow Tuesday*/
+nav > .nav.nav-tabs{
+	border: none;
+	color:#fff;
+	background: #ffffff;
+	border-radius: 5px/*10px*/;
+	height: 38px/*50px*/;
+}
+nav > div a.nav-item.nav-link {
+	border-radius: 20px !important;
+}
+/*Nav Bar Today Tommorow Tuesday Koga Se Aktiviraat*/
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+	border: none;
+	padding: 5px/*9px*/ 25px;
+	color:#000;
+	border-radius:0;
+	font-size: 17px/*20px*/;
+	font-family: Roboto-Medium;
+	height: 38px/*50px*/;
+}
+.tab-content p {
+	color: #ffffff;
+}
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+	border: none;
+	background: #3d68b3;
+	color:#fff;
+	border-radius:5px !important;
+	transition:background 0.20s linear;
+	border-top: 5px solid #29b559;
+}
+/*Padding kaj rezultatite*/
+.larnaca {
+	background-image: linear-gradient(#4775d1, #24478f)/*#3d68b3*/;
+	padding: 14px/*22px*/;
+	height: 160px/*170px*/;
+	border-radius: 10px;
+}
+.larnaca1 {
+	height: 190px/*200px*/;
+}
+/*Padding Button Results*/
+.aek-larnaca {
+	padding-top: 20px/*30px*/;
+}
+.aek-larnaca p {
+	color: #ffffff;
+	font-size: 14px;
+	font-family: Roboto-Medium;
+	padding-top: 10px;
+	margin: 0;
+}
+.hour {
+	text-align: center;
+}
+/*Date text*/
+.hour h4 {
+	color: #ffffff;
+	font-size: 16px/*20px*/;
+	font-family: Roboto-Medium;
+	margin-bottom: 2px;
+}
+.hour p {
+	color: #ffffff;
+	font-size: 21px/*22px*/;
+	font-family: Roboto-Medium;
+	padding: 8px 0px 2px;
+	line-height: 30px;
+}
+.per p {
+	display: inline-grid;
+	margin-bottom: 15px/*22px*/;
+}
+/*Timing hours minutes seconds*/
+.per a {
+	/* background-color: #29b559; */
+	background-color: #081740;
+	display: inline-flex;
+	text-align: center;
+	font-size: 14px;
+	color: #ffffff !important;
+	font-family: Roboto-Medium;
+	padding: 3px 8px/*11px*/;
+	border-radius: 5px;
+	margin: 0 0px/*3px*/;
+	line-height: 15px;
+}
+.per a span {
+	font-size: 9px;
+	display: contents;
+}
+/*Button results width and height*/
+.preview a {
+	background-color: #29b559;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: Roboto-Bold;
+	text-decoration: none;
+	border-radius: 8px;
+	-webkit-animation: glowing 1300ms infinite;
+	-moz-animation: glowing 1300ms infinite;
+	-o-animation: glowing 1300ms infinite;
+	animation: glowing 1300ms infinite;
+	min-height: 45px/*50px*/;
+	width: 47%/*52%*/;
+	display: inline-block;
+	line-height: 45px/*50px*/;
+}
+@-webkit-keyframes glowing {
+	0% { background-color: #29b559; -webkit-box-shadow: 0 0 3px #29b559; }
+	50% { background-color: #29b559; -webkit-box-shadow: 0 0 15px #29b559; }
+	100% { background-color: #29b559; -webkit-box-shadow: 0 0 3px #29b559; }
+}
+@keyframes glowing {
+	0% { background-color: #29b559; box-shadow: 0 0 3px #29b559; }
+	50% { background-color: #29b559; box-shadow: 0 0 15px #29b559; }
+	100% { background-color: #29b559; box-shadow: 0 0 3px #29b559; }
+}
+/*Tekstot u button za plakanje*/
+.sure-btn a {
+	width: 40%/*38%*/;
+	line-height: 23px/*28px*/;
+	text-align: center;
+	padding: 13px/*8px*/;
+}
+/*Border radius winning tips*/
+.winning {
+	background-image: linear-gradient(#3366cc, #1f3d7a);
+	padding: 16px/*22px*/;
+	height: 308px/*395px*/;
+	border-radius: 5px;
+}
+.winning h2 {
+	font-size: 18px/*22px*/;
+	font-family: Roboto-Medium;
+	color: #ffffff;
+	padding-bottom: 8px/*15px*/;
+}
+.our-bet {
+	background-color: #29b559;
+	border-radius: 10px;
+	padding: 5px 15px 8px;
+	position: relative;
+}
+.our-bet span {
+	background-color: #fff;
+	height: 35px;
+	width: 35px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	right: -5px;
+	position: absolute;
+	top: -10px;
+}
+.our-bet span i {
+	color: #1ac31a;
+	font-size: 20px;
+	line-height: 32px;
+}
+.our-bet h3 {
+	font-size: 14px/*18px*/;
+	font-family: Roboto-Light;
+	color: #ffffff;
+	margin-bottom: 4px;
+}
+.our-bet h4 {
+	font-size: 16px/*18px*/;
+	font-family: Roboto-Medium;
+	color: #ffffff;
+	margin: 0;
+}
+.profit {
+	margin-top: 10px/*18px*/;
+}
+.profit h4 {
+	font-size: 12px/*14px*/;
+	font-family: Roboto-Light;
+	color: #ffffff;
+}
+.pro-bet {
+	border-right: 1px dashed white;
+}
+.pro-bet img {
+	padding-top: 10px;
+}
+.set-border {
+	border-bottom: 1px dashed white;
+	padding-bottom: 10px/*20px*/;
+}
+.profit a {
+	border: 1px transparent;
+	-webkit-border-radius: 40px;
+	border-radius: 4px;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Roboto-Bold;
+	font-size: 14px/*18px*/;
+	height: 30px;
+	width: 80px;
+	line-height: 32px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-animation: glowing 1300ms infinite;
+	-moz-animation: glowing 1300ms infinite;
+	-o-animation: glowing 1300ms infinite;
+	animation: glowing 1300ms infinite;
+}
+@-webkit-keyframes glowing {
+	0% { background-color: #29b559; -webkit-box-shadow: 0 0 3px #29b559; }
+	50% { background-color: #29b559; -webkit-box-shadow: 0 0 15px #29b559; }
+	100% { background-color: #29b559; -webkit-box-shadow: 0 0 3px #29b559; }
+}
+@keyframes glowing {
+	0% { background-color: #29b559; box-shadow: 0 0 3px #29b559; }
+	50% { background-color: #29b559; box-shadow: 0 0 25px/*15px*/ #29b559; }
+	100% { background-color: #29b559; box-shadow: 0 0 3px #29b559; }
+}
+/*Confidence/Accurate Button*/
+.accurate1 a {
+    background-color: #e6990b;
+		color: #ffffff;
+		font-size: 18px;
+		font-family: Roboto-Bold;
+		text-decoration: none;
+		border-radius: 8px;
+		-webkit-animation: zhb 3000ms infinite;
+		-moz-animation: zhb 3000ms infinite;
+		-o-animation: zhb 3000ms infinite;
+		animation: zhb 1300ms infinite;
+		min-height: 35px;
+    min-width: 35%;
+    display: inline-block;
+    line-height: 38px;
+    margin-top: 15px/*10px*/;
+		animation-name: zhb;
+}
+@-webkit-keyframes zhb {
+	0% { -webkit-box-shadow: 0 0 3px #e6990b; }
+	50% { -webkit-box-shadow: 0 0 15px #e6990b; }
+	100% { -webkit-box-shadow: 0 0 3px #e6990b; }
+}
+@keyframes zhb {
+	0% { box-shadow: 0 0 3px #e6990b; }
+	50% { box-shadow: 0 0 15px #e6990b; }
+	100% { box-shadow: 0 0 3px #e6990b; }
+}
+/*Padding button results second site*/
+.acc-2x {
+	margin-top: -27px/*-20px*/;
+    margin-bottom: 24px/*10px*/;
+}
+.acc-2x a {
+	min-height: 25px;
+  min-width: 20%;
+}
+/*Padding Biggest Result and Text*/
+.accass-text {
+    padding-top: 50px/*60px*/;
+}
+.accass-text p {
+	font-size: 16px;
+ 	font-family: Roboto-Light;
+ 	color: #ffffff;
+}
+.profit h6 {
+	font-size: 15px/*18px*/;
+	font-family: Roboto-Bold;
+	color: #ffffff;
+}
+.scotish {
+	padding-top: 5px/*20px*/;
+}
+.scotish h6 {
+	font-size: 12px;
+	font-family: Roboto-light;
+	color: #ffffff;
+}
+.scotish p {
+	font-size: 15px/*18px*/;
+	font-family: Roboto-Medium;
+	color: #ffffff;
+	margin: 0;
+}
+.scotish p span {
+	font-size: 12px;
+}
+.larnaca2 {
+	height: 195px;
+	margin-top: 40px/*60px*/;
+}
+.win a {
+	color: #ffffff !important;
+	font-size: 19px/*22px*/;
+	font-family: Roboto-Medium;
+	border: 2px solid #fff;
+	border-radius: 8px;
+	padding: 4px 15px/*6px 20px*/;
+	margin: 10px/*12px*/ 0;
+	display: inline-block;
+}
+.top-slides {
+	min-height: 75px/*125px*/ !important;
+	padding-top: 0px/*15px*/;
+	overflow: inherit !important;
+}
+.top-slides ul {
+	min-height: 90px/*125px*/;
+}
+.top-slides ul li {
+    border-right: 0 !important;
+}
+/*Menuvanje na font*/
+.top-slides ul li a {
+	display: grid !important;
+	color: #373737 !important;
+	font-size: 14px !important;
+	font-family: Roboto-Bold !important;
+	text-transform: capitalize !important;
+	padding: 0 10px/*16px*/ !important;
+	/*Bold*/
+	font-weight: bold !important;
+}
+.top-slides ul li a img {
+	text-align: center;
+	margin: 0 auto;
+}
+/*Logo text*/
+.top-slides ul li a label {
+	margin-right: 35px;
+	font-size: 56px;
+	font-family: Roboto-Medium;
+	color: green;
+	text-transform: capitalize;
+}
+/* Flag position */
+.flag-dropdown {
+	top: 18px/*25px*/;
+}
+.dropdown-contnt {
+
+}
+/* .top-slides ul li a:first-child {
+font-size: 35px;
+font-family: Roboto-Bold;
+color: #d02e33 !important;
+} */
+.mobile-menu {
+	background-color: #29b559;
+	position: relative;
+}
+/*Background color mobile top slidebar from grey to white*/
+.mobile-device {
+	background-color: #f8f8f8/*#eee*/;
+	height: 60px;
+	display: none;
+}
+.mobile-device a {
+	color: #c31a1a;
+	font-size: 35px;
+	float: left;
+}
+.flags-btn {
+	float: right;
+}
+.footer {
+	background-color: #078d35;
+	min-height: 50px;
+}
+.footer p {
+	font-size: 20px;
+	font-family: Roboto-Regular;
+	color: #ffffff;
+	margin: 0;
+	padding-top: 10px;
+	text-align: center;
+}
+.menu_dropp{
+	width:30%;float:left;
+}
+/*Bitno za gorniot taskbar*/
+.menu_ull{
+	width:70%;float:left;
+	height: 70px;
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+	.arrow-cell {
+		display: none;
+	}
+	.dropdown-contnt {
+		left: -72px !important;
+	}
+}
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+	.mobile-device {
+		display: none;
+	}
+	.scotish p {
+		font-size: 14px;
+	}
+
+}
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+	.change-bg {
+    background: #23376a linear-gradient(1turn,#2b3e6d,#385bb9);
+	}
+	.top-slides ul li a {
+		color: #ffffff !important;
+		font-size: 12px !important;
+		line-height: 28px !important;
+		padding-top: 10px !important;
+padding-bottom: 5px !important;
+	}
+	.mobile-device {
+		display: block !important;
+		padding-left: 25px;
+	}
+	.top-slides ul li a strong {
+		display: none;
+	}
+	.flag-dropdown {
+		display: none;
+	}
+	.flag1 img {
+		height: 20px;
+	}
+	.first-child {
+		display: none !important;
+	}
+	#elem1 {
+		display: none !important;
+	}
+	#main-nav-bar1 {
+		padding-left:0px;padding-top:0px;
+	}
+
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+	.arrow-cell {
+		display: none;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.making h1 {
+		font-size: 30px;
+	}
+	.winning {
+		margin-bottom: 10px;
+	}
+	.preview a {
+		padding: 15px 25px;
+		    line-height: 20px;
+	}
+	.accurate1 a {
+    font-size: 14px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+	.arrow-cell {
+		height: 50px;
+		width: 30px;
+		text-align: center;
+		position: absolute;
+		z-index: 1001;
+		line-height: 45px;
+		right: 0;
+		background-color: #2fa82f;
+	}
+	.arrow-cell span {
+	}
+	.arrow-cell img {
+		height: 10px;
+	}
+	.arrow-cel-1 {
+		height: 125px;
+		top: 60px;
+		background-image: linear-gradient(to right top, #3d68b3, #004d7a, #3d68b3, #3d68b3, #3d68b3);
+	  background-image: linear-gradient(to bottom, #104087, #004d7a, #17585e, #345896, #20498e);
+		line-height: 135px;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 550px) {
+	.per a {
+    padding: 4px 6px;
+		margin: 0 0px;
+		line-height: 14px;
+	}
+	.hour h4 {
+		font-size: 13px/*14px*/;
+	}
+
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	.flags-btn {
+		padding-top: 15px;
+	}
+	.flags-btn:focus {
+		box-shadow: none;
+	}
+	.mob-drop {
+		left: -23px !important;
+	}
+	.mob-drop i {
+		padding-right: 5px;
+	}
+	.top-slides ul li {
+    border-right: 1px solid #cfcfcf !important;
+	}
+	.acc-2x a {
+		    min-width: 52%;
+	}
+
+.accass-text p {
+    font-size: 14px;
+	}
+	.menu_ull{
+		width:96%;
+		float:left;
+	}
+	.prev-mob {
+		margin-top: 0px/*25px*/;
+	}
+	.accass ul li {
+		border-right: 0;
+	}
+	/*Mobilen h1 za Tekst: Football...*/
+	.making h1 {
+		font-size: 18px;
+		padding-bottom: 13px/*25px*/;
+	}
+	/*Mobilen h3 za Tekst: Start making money...*/
+	.making h3 {
+		font-size: 13px;
+	}
+	/*Mobilen Result*/
+	.win a {
+		font-size: 15px/*12px*/;
+		padding: 4px 8px;
+	}
+    .scotish h6 {
+		padding-top: 5px;
+	}
+	/*Golemina na button za pay Mobilen tel*/
+	.sure-btn a {
+		line-height: 23px/*30px*/;
+	}
+	/*Slik mid taskbar*/
+	.top-slides ul li a img {
+		height: 20px/*40px*/;
+		width: 20px/*40px*/;
+		border-radius: 100%;
+	}
+	/*Golemina na tekstot u navigation bar za today tommorow tuesday*/
+	nav > div a.nav-item.nav-link, nav > div a.nav-item.nav-link.active {
+		padding: 10px/*15px*/ 8px;
+		font-size: 14px;
+	}
+	/*Result Biggest*/
+	.accurate1 a {
+    font-size: 15px/*14px*/;
+		padding: 0px 10px;
+    margin-bottom: 10px;
+	}
+	.hour {
+		padding-top: 0;
+	}
+	.full-time {
+padding-top: 0;
+	}
+	.per p {
+	 margin-bottom: 10px;
+	}
+	/*Padding button results from pictures*/
+	.aek-larnaca {
+		padding-bottom: 25px/*5px*/;
+		padding-top: 0px;
+	}
+	/*Text Prediction from second site results main*/
+	.hour p {
+		font-size: 20px/*15px*/;
+		line-height: 23px;
+		text-align: center;
+		padding-top: 15px;
+	}
+	/*buttons width*/
+	.preview a {
+		font-size: 16px;
+		width: 55%/*100%*/;
+	}
+	.winning {
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.scotish p {
+    font-size: 15px;
+	}
+	.footer p {
+		font-size: 16px;
+	}
+	.header {
+		display: none;
+	}
+	.winning h2 {
+		font-size: 14px;
+		padding-bottom: 0;
+	}
+	.profit {
+		margin-top: 10px;
+	}
+	.profit a {
+		font-size: 13px;
+	}
+	.profit h6 {
+		font-size: 14px;
+	}
+	.winning {
+		padding: 15px;
+	}
+	/*Sredniot slidebar sin golemina height*/
+	.top-slides {
+		min-height: 60px/*80px*/ !important;
+		padding-top: 0;
+	}
+	.our-bet span {
+		height: 25px;
+		width: 25px;
+	}
+	.our-bet span i {
+		line-height: 0;
+		font-size: 14px;
+	}
+	.set-border {
+		padding-bottom: 10px;
+	}
+	/*Mobilen Padding of the Text: Football Predictions & Free...*/
+	.making {
+		padding: 28px/*35px*/ 15px 40px;
+	}
+	.scotish {
+		padding-top: 0px;
+	}
+	.our-bet h3 {
+		font-size: 16px;
+	}
+	.our-bet h4 {
+		font-size: 14px;
+	}
+	.pro-bet img {
+		height: 45px;
+	}
+	/*Padding Text to the box*/
+	.larnaca2 {
+		margin-top: 30px/*40px*/;
+	}
+	.arrow-cell {
+		height: 35px/*40px*/;
+		width: 30px;
+		text-align: center;
+		position: absolute;
+		z-index: 1001;
+		line-height: 30px/*35px*/;
+		right: 0;
+		background-color: #2fa82f;
+	}
+	.arrow-cell span {
+	}
+	.arrow-cell img {
+		height: 10px;
+	}
+	/*golemnina na sredniot slidebar sin znakche za slajduvanje nadesno*/
+	.arrow-cel-1 {
+		height: 60px/*80px*/;
+		top: 60px;
+    background: #23376a linear-gradient(1turn,#23376a,#385bb9);
+		line-height: 55px/*80px*/;
+	}
+	.padding1 {
+		padding: 0 0 40px 0;
+	}
+	.larnaca {
+		border-radius: 0px;
+	}
+	.paddingButton {
+		padding-top: 15px;
+	}
+	.widthButtonPay {
+		width: 65% !important;
+	}
+	.padding2 {
+		padding: 0;
+	}
+	.acc-2x {
+		margin-bottom: 17px;
+	}
+}
